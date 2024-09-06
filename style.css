@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.wrap {
+    display: flex;
+    margin-top: 70px;
+}
+.box1{
+   background-color: #299AB3; 
+   padding: 100px;  
+   
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   color: white;
+
+   
+}
+.btn1{
+    color: #299AB3;
+    width: 100px;
+    height: 40px;
+    border-radius: 35%;
+    margin-top: 110px;
+}
+.wrapper2{
+    display: flex;
+    margin-top: 70px;
+    gap: 260px;
+}
+.box21{
+    text-align: center;
+}
+.wrapper3{
+    padding-top: 120px;
+    
+}
+.btn3{
+    background-color: #299AB3;
+    width: 150px;
+    height: 40px;
+    border-radius: 15px;
+    color: white;
+    
+}
+.card3{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: solid black 1px;
+    
+
+
+}
+
+.wrapper3 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+  
+}
+.btn4{
+    background-color: #024764;
+    color: white;
+}
+.wrapper6{
+    display: flex;
+   padding-top: 100px;
+   gap: 60px;
+
+}
+.card6{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.wrapper7{
+    padding-top: 100px;
+}
+.wrapper8{
+    display: flex;
+    gap: 225px;
+    padding-top: 100px;
+}
